@@ -14,17 +14,17 @@ val pages = listOf(
 
     Page(
         title = "The News App is a modern mobile ",
-        description = "The News App is a modern mobile application that delivers up-to-date",
+        description = "The News App is a modern mobile application ",
         image = R.drawable.onboarding1
     ),
     Page(
         title = "The News App is a modern mobile ",
-        description = "The News App is a modern mobile application that delivers up-to-date",
+        description = "The News App is a modern mobile application ",
         image = R.drawable.onboarding2
     ),
     Page(
         title = "The News App is a modern mobile ",
-        description = "The News App is a modern mobile application that delivers up-to-date",
+        description = "The News App is a modern mobile application ",
         image = R.drawable.onboarding3
     )
 
