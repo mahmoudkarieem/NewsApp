@@ -10,7 +10,7 @@ class NewsPagingSource(
 
     private val source: String
 ) : PagingSource<Int, Article>() {
-    var totalCount=0
+    private var totalCount=0
     override fun getRefreshKey(state: PagingState<Int, Article>): Int? {
      return state.anchorPosition.let {anchorPosition->
          val anchorPage= anchorPosition?.let { state.closestPageToPosition(it) }

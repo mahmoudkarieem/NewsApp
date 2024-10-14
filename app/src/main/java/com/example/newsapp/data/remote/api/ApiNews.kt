@@ -1,6 +1,6 @@
 package com.example.newsapp.data.remote.api
 
-import com.example.newsapp.Utils.API_KEY
+import com.example.newsapp.utli.Utils.API_KEY
 import com.example.newsapp.data.remote.dto.NewsResponse
 import retrofit2.http.GET
 import retrofit2.http.Query

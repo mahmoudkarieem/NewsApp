@@ -1,4 +1,4 @@
-package com.example.newsapp
+package com.example.newsapp.utli
 
 object Utils {
   const   val USER_SETTINGS="userSettings"

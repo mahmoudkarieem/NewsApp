@@ -6,8 +6,8 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.preferencesDataStore
-import com.example.newsapp.Utils.APP_ENTRY
-import com.example.newsapp.Utils.USER_SETTINGS
+import com.example.newsapp.utli.Utils.APP_ENTRY
+import com.example.newsapp.utli.Utils.USER_SETTINGS
 import com.example.newsapp.domain.manger.LocalUserManger
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
